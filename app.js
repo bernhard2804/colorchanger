@@ -9,6 +9,6 @@ function randomRGB(){
 const letters = document.querySelectorAll('.letter');
 const intervalId = setInterval(function(){
     for (let letter of letters){
-        letter.getElementsByClassName.color = randomRGB();
+        letter.style.color = randomRGB();
     }
-}, 2000);
+}, 1000);

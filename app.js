@@ -6,14 +6,14 @@ function randomRGB(){
 }
 
 // To change each letter independently
-const letters = document.querySelectorAll('.letter');
-const intervalId = setInterval(function(){
-    for (let letter of letters){
-        letter.style.color = randomRGB();
-    }
-}, 2000);
-/*
+//const letters = document.querySelectorAll('.letter');
+//const intervalId = setInterval(function(){
+  //  for (let letter of letters){
+    //    letter.style.color = randomRGB();
+    //}
+//}, 2000);
+
 const body = document.querySelector('body');
 const interval = setInterval(function(){
     body.style.backgroundColor = randomRGB();
-}, 3000);*/
+}, 3000);

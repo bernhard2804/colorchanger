@@ -5,7 +5,7 @@ body {
     height: 100vh;
     /*transition: background-color 3000ms;*/
     overflow: hidden;
-    background-color: black;
+    transition: background-color 2000ms;
 }
 
 h1 {
